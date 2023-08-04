@@ -1,0 +1,44 @@
+{
+  "name": "solid-blog",
+  "scripts": {
+    "dev": "solid-start dev --port 3000",
+    "start": "solid-start start --port 3000",
+    "build": "solid-start build",
+    "lint": "eslint --fix \"**/*.{ts,tsx,js,jsx}\""
+  },
+  "type": "module",
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.9",
+    "@types/node": "^18.17.1",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "autoprefixer": "^10.4.14",
+    "daisyui": "^3.5.1",
+    "eslint": "^8.46.0",
+    "eslint-plugin-solid": "^0.9.4",
+    "postcss": "^8.4.27",
+    "solid-start-node": "^0.2.30",
+    "solid-start-vercel": "^0.2.30",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^4.9.5",
+    "vite": "^4.4.8"
+  },
+  "dependencies": {
+    "@auth/core": "^0.5.1",
+    "@solid-auth/base": "^2.0.3",
+    "@solidjs/meta": "^0.28.6",
+    "@solidjs/router": "^0.8.2",
+    "@tanstack/solid-query": "5.0.0-alpha.20",
+    "@trpc/client": "^10.37.1",
+    "@trpc/server": "^10.37.1",
+    "solid-js": "^1.7.8",
+    "solid-start": "^0.2.30",
+    "solid-start-trpc": "^0.0.16",
+    "solid-trpc": "0.1.0-sssr.7",
+    "undici": "5.20.0",
+    "zod": "^3.21.4"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
